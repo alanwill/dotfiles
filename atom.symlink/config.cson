@@ -1,0 +1,6 @@
+"*":
+  core:
+    disabledPackages: [
+      "markdown-preview"
+    ]
+  linter: {}
