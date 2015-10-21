@@ -18,10 +18,49 @@ then
   then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
   fi
-  
+
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark
+brew install \
+blink1 \
+brew-cask \
+coreutils \
+cowsay \
+curl \
+docker \
+docker-compose \
+docker-machine \
+docker-swarm \
+emacs \
+git \
+git-extras \
+go \
+grc \
+hub \
+jq \
+lastpass-cli \
+lynx \
+node \
+openssl \
+osquery \
+packer \
+pam_yubico \
+pyenv \
+reattach-to-user-namespace \
+ruby \
+speedtest-cli \
+sqlite \
+sysdig \
+terraform \
+tmux \
+tmux-mem-cpu-load \
+tree \
+vim \
+wget \
+zsh \
+zsh-syntax-highlighting \
+spark
+
 
 exit 0
