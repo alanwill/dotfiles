@@ -1,6 +1,38 @@
 "*":
+  editor:
+    showIndentGuide: true
+    fontFamily: "Menlo"
+    invisibles: {}
+    fontSize: 15
+    softWrapAtPreferredLineLength: true
   core:
+    ignoredNames: [
+      ".bundle"
+      ".git"
+      "log"
+      "repositories"
+      "tmp"
+      "vendor"
+    ]
+    themes: [
+      "unity-ui"
+      "glacier-syntax"
+    ]
+    hideGitIgnoredFiles: true
     disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
       "markdown-preview"
     ]
-  linter: {}
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
+    ]
+  welcome:
+    showOnStartup: false
+  "markdown-preview-plus":
+    useLazyHeaders: false
+    useGitHubStyle: true
