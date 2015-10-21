@@ -24,7 +24,7 @@ fi
 # Install homebrew packages
 brew install \
 blink1 \
-brew-cask \
+caskroom/cask/brew-cask \
 coreutils \
 cowsay \
 curl \
