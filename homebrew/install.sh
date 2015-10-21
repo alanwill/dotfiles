@@ -40,7 +40,6 @@ grc \
 hub \
 jq \
 lastpass-cli \
-lynx \
 node \
 openssl \
 osquery \
