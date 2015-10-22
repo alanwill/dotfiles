@@ -7,9 +7,11 @@
 # Check for oh-my-zsh
 if [ ! -d "$HOME"/.oh-my-zsh ];
 then
-  echo "  Installing oh-my-zsh for you."
+  echo "*** Installing oh-my-zsh for you ***"
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-  echo "  Installing bullet-train ZSH theme"
+  echo "*** Installing powerline fonts ***"
+  pip install --user powerline-status
+  echo "*** Installing bullet-train ZSH theme ***"
   cd $HOME/.oh-my-zsh/themes
   curl -O http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
 fi
