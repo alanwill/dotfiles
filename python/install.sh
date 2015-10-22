@@ -11,11 +11,11 @@ then
   echo "*** Installing pyenv ***"
   brew install pyenv
   echo "*** Installing python 2.7.10 ***"
-  pyenv  install 2.7.10
-  echo "*** Installing python 2.7.10 ***"
-  pyenv  install 3.5.0
+  pyenv install 2.7.10
+  echo "*** Installing python 3.5.0 ***"
+  pyenv install 3.5.0
   echo "*** Setting local python environment ***"
-  pyenv init -
+  eval "$(pyenv init -)"
   pyenv local 2.7.10
 fi
 
