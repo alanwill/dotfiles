@@ -4,7 +4,7 @@
 #
 #
 
-cd ../fonts
+cd fonts
 git submodule init
 git submodule update
 ./install.sh
