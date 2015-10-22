@@ -13,7 +13,7 @@ then
   pip install --user powerline-status
   echo "*** Installing bullet-train ZSH theme ***"
   cd $HOME/.oh-my-zsh/themes
-  curl -O http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
+  curl -O https://raw.githubusercontent.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
 fi
 
 exit 0
