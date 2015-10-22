@@ -102,7 +102,16 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # for iterm2 integration
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
-# Add the following to your zshrc to access the online help (provided by brew):
-unalias run-help
-autoload run-help
-HELPDIR=/usr/local/share/zsh/help
+#########
+# bullet-train zsh theme options
+# -prompt
+
+# -status
+
+# -python
+export BULLETTRAIN_VIRTUALENV_SHOW=false
+# -ruby
+export BULLETTRAIN_RUBY_SHOW=false
+# -time
+export BULLETTRAIN_TIME_SHOW=false
+#######
