@@ -40,11 +40,11 @@ The script installs and configures the following:
     git clone https://github.com/alanwill/dotfiles.git $HOME/.dotfiles
     ```
 
-2. Install dotfiles
+2. Install individual tools
     ```
     $HOME/.dotfiles/script/install
     ```
-3. Bootstrap them
+3. Install dotfiles and configure environment
     ```
-    $HOME/.dotfiles/script/install
+    $HOME/.dotfiles/script/bootstrap
     ```
