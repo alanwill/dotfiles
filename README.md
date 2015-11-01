@@ -12,15 +12,15 @@ Use these at your own risk as YMMV :).
 
 ## what do you get
 The script installs and configures the following:
-1. Homebrew and a number of packakes, see: [here](./homebrew/install.sh).
-2. Google Cloud CLI (gcloud)
-3. Some OS X preferences, see: [here](./osx/set-defaults.sh).
-4. Powerline fonts for command prompt
-5. Oh-my-zsh
-6. Python 2 and 3 using pyenv
-7. AWS CLI (coming soon)
-8. tmux
-9. Vim with
+*  Homebrew and a number of packakes, see: [here](./homebrew/install.sh).
+* Google Cloud CLI (gcloud)
+* Some OS X preferences, see: [here](./osx/set-defaults.sh).
+* Powerline fonts for command prompt
+* Oh-my-zsh
+* Python 2 and 3 using pyenv
+* AWS CLI (coming soon)
+* tmux
+* Vim with
 
 ## prerequisites
 1. Install latest version of Xcode from App Store
