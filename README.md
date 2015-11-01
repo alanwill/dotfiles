@@ -16,11 +16,11 @@ The script installs and configures the following:
 2. Google Cloud CLI (gcloud)
 3. Some OS X preferences, see: [here](./osx/set-defaults.sh).
 4. Powerline fonts for command prompt
-3. Oh-my-zsh
-4. Python 2 and 3 using pyenv
-5. AWS CLI (coming soon)
-6. tmux
-7. Vim with
+5. Oh-my-zsh
+6. Python 2 and 3 using pyenv
+7. AWS CLI (coming soon)
+8. tmux
+9. Vim with
 
 ## prerequisites
 1. Install latest version of Xcode from App Store
