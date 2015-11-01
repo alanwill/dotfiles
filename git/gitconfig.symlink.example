@@ -13,6 +13,7 @@
         count   = !git shortlog -sn
         exec = ! "exec"
         st = status -sb
+        s = status
         br = branch -vv
         bra = branch -vv --all
         bed = branch --edit-description
@@ -21,6 +22,7 @@
         ca = commit --amend -v
         save = commit -a -m "Save"
         co = checkout
+        cm = commit -m
         di = diff
         dis = diff --stat
         diw = diff --color-words
@@ -44,6 +46,7 @@
         cc = rev-list HEAD --count
         cca = rev-list --all --count
         lg = log -p
+        lol = log --oneline --graph --decorate --all
         gr = log --graph --format=compact # graph
         grl = log --graph --format=line # graph line
         grd = log --graph --format=detail # graph detail
@@ -78,7 +81,8 @@
 [core]
         excludesfile = ~/.gitignore
         excludesfile = ~/.gitignore_global
-        editor = atom
+        editor = atom -w
+        autocrlf = input
 [apply]
         whitespace = nowarn
 [merge]
