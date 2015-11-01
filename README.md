@@ -25,10 +25,12 @@ The script installs and configures the following:
 ## prerequisites
 1. Install latest version of Xcode from App Store
 2. Accept Xcode license agreement either by launching it via the GUI or running
+
     ```
     sudo xcodebuild -license
     ```
 3. Install Xcode Command Line Tools
+
     ```
     xcode-select --install
     ```
@@ -45,6 +47,7 @@ The script installs and configures the following:
     $HOME/.dotfiles/script/install
     ```
 3. Install dotfiles and configure environment
+
     ```
     $HOME/.dotfiles/script/bootstrap
     ```
