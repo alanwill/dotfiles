@@ -10,6 +10,8 @@ then
   echo "*** Installing oh-my-zsh for you ***"
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   echo "*** Installing powerline fonts ***"
+  eval "$(pyenv init -)"
+  pyenv local 2.7.10
   pip install --user powerline-status
   echo "*** Installing bullet-train ZSH theme ***"
   cd $HOME/.oh-my-zsh/themes
