@@ -12,12 +12,13 @@ Use these at your own risk as YMMV :).
 
 ## what do you get
 The script installs and configures the following:
-*  Homebrew and a number of packakes, see: [here](./homebrew/install.sh).
+* Homebrew and a number of packakes, see: [here](./homebrew/install.sh).
 * Google Cloud CLI (gcloud)
 * Some OS X preferences, see: [here](./osx/set-defaults.sh).
 * Powerline fonts for command prompt
 * Oh-my-zsh
 * Python 2 and 3 using pyenv
+* Ruby
 * AWS CLI (coming soon)
 * tmux
 * Vim with
