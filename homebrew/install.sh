@@ -46,7 +46,6 @@ openssl \
 osquery \
 packer \
 pam_yubico \
-pyenv \
 reattach-to-user-namespace \
 ruby \
 speedtest-cli \
