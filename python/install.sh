@@ -18,6 +18,7 @@ then
   eval "$(pyenv init -)"
   pyenv local 2.7.10
   echo "*** Installing AWS CLI ***"
+  pip install --upgrade pip
   pip install awscli
 else
   echo "*** Setting local python environment ***"
