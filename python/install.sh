@@ -25,6 +25,7 @@ else
   eval "$(pyenv init -)"
   pyenv local 2.7.10
   echo "*** Updating AWS CLI ***"
+  pip install --upgrade pip
   pip install --upgrade awscli
 fi
 
