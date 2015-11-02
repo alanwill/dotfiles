@@ -1,1 +1,5 @@
+# Created after python is installed
+.python-version
 
+# This file is created after dynamically after running script/bootstap
+git/gitconfig.symlink
