@@ -44,14 +44,12 @@ lynx \
 node \
 openssl \
 osquery \
-packer \
 pam_yubico \
 reattach-to-user-namespace \
 ruby \
 speedtest-cli \
 sqlite \
 sysdig \
-terraform \
 tmux \
 tmux-mem-cpu-load \
 tree \
@@ -61,5 +59,15 @@ zsh \
 zsh-syntax-highlighting \
 spark
 
+# Install brew cask packages
+brew cask install \
+consul \
+nomad \
+otto \
+packer \
+serf \
+terraform \
+vagrant \
+vault 
 
 exit 0
