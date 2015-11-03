@@ -108,11 +108,15 @@ test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_in
 # -prompt
 
 # -status
-
+export BULLETTRAIN_STATUS_EXIT_SHOW=true
+# - context
+export BULLETTRAIN_STATUS_EXIT_SHOW=true
 # -python
 export BULLETTRAIN_VIRTUALENV_SHOW=false
 # -ruby
 export BULLETTRAIN_RUBY_SHOW=false
 # -time
 export BULLETTRAIN_TIME_SHOW=false
+# dir
+export BULLETTRAIN_DIR_EXTENDED=2
 #######
