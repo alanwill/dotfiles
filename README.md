@@ -21,7 +21,8 @@ The script installs and configures the following:
 * Ruby
 * AWS CLI (coming soon)
 * tmux
-* Vim with
+* Atom editor
+* Vim with maximum-awesome
 
 ## prerequisites
 1. Install latest version of Xcode from App Store
@@ -35,6 +36,7 @@ The script installs and configures the following:
     ```
     xcode-select --install
     ```
+4. Install the [Atom text editor](https://atom.io)
 
 ## installation
 

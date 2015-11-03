@@ -3,3 +3,12 @@
 
 # This file is created after dynamically after running script/bootstap
 git/gitconfig.symlink
+
+# Atom files
+atom.symlink/.apm
+atom.symlink/.node-gyp
+atom.symlink/.storage
+atom.symlink/compile-cache/
+atom.symlink/packages
+atom.symlink/storage
+atom.symlink/themes

@@ -5,6 +5,7 @@
     invisibles: {}
     fontSize: 15
     softWrapAtPreferredLineLength: true
+  linter: {}
   core:
     ignoredNames: [
       ".bundle"
@@ -15,8 +16,8 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-dark-ui"
+      "atom-dark-syntax"
     ]
     hideGitIgnoredFiles: true
     disabledPackages: [
@@ -33,6 +34,5 @@
     ]
   welcome:
     showOnStartup: false
-  "markdown-preview-plus":
-    useLazyHeaders: false
+  "markdown-preview":
     useGitHubStyle: true
