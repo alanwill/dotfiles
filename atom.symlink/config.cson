@@ -21,11 +21,9 @@
     ]
     hideGitIgnoredFiles: true
     disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-      "markdown-preview"
+
     ]
+    projectHome: "$HOME/hacking"
   "spell-check":
     grammars: [
       "text.plain"
