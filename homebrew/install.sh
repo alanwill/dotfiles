@@ -33,6 +33,7 @@ docker-compose \
 docker-machine \
 docker-swarm \
 emacs \
+figlet \
 git \
 git-extras \
 go \
@@ -68,6 +69,6 @@ packer \
 serf \
 terraform \
 vagrant \
-vault 
+vault
 
 exit 0
