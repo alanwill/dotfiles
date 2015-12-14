@@ -28,10 +28,6 @@ caskroom/cask/brew-cask \
 coreutils \
 cowsay \
 curl \
-docker \
-docker-compose \
-docker-machine \
-docker-swarm \
 emacs \
 figlet \
 git \
@@ -63,6 +59,7 @@ brew install lastpass-cli --with-pinentry --with-doc
 # Install brew cask packages
 brew cask install \
 consul \
+dockertoolbox \
 nomad \
 otto \
 packer \
