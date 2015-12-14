@@ -40,7 +40,6 @@ go \
 grc \
 hub \
 jq \
-lastpass-cli \
 lynx \
 node \
 openssl \
@@ -59,6 +58,7 @@ wget \
 zsh \
 zsh-syntax-highlighting \
 spark
+brew install lastpass-cli --with-pinentry --with-doc
 
 # Install brew cask packages
 brew cask install \

@@ -20,9 +20,9 @@ The script installs and configures the following:
 * Python 2 and 3 using pyenv
 * Ruby
 * AWS CLI (coming soon)
-* tmux
-* Atom editor
-* Vim with maximum-awesome
+* tmux (Adapted from Square's [maximum-awesome](https://github.com/square/maximum-awesome))
+* Atom editor config
+* Vim (Also adapted from Square's [maximum-awesome](https://github.com/square/maximum-awesome))
 
 ## prerequisites
 1. Install latest version of Xcode from App Store

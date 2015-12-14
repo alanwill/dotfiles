@@ -5,6 +5,8 @@
     invisibles: {}
     fontSize: 15
     softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "soft"
   linter: {}
   core:
     ignoredNames: [
