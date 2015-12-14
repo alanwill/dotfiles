@@ -144,8 +144,8 @@ install_maximum-awesome () {
 
   git submodule init
   git submodule update
-  
-  cd ../maximum-awesome
+
+  cd $HOME/.dotfiles/maximum-awesome
   rake
 
   ln -s $HOME/.dotfiles/tmux/tmux.conf.local $HOME/.tmux.conf.local
