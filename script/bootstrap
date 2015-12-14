@@ -137,8 +137,22 @@ install_dotfiles () {
   done
 }
 
+install_maximum-awesome () {
+  info 'installing maximum-awesome'
+
+  local overwrite_all=false backup_all=false skip_all=false
+
+  cd ../maximum-awesome
+  rake
+
+  ln -s $HOME/.dotfiles/tmux/tmux.conf.local $HOME/.tmux.conf.local
+  ln -s $HOME/.dotfiles/vim/vimrc.local $HOME/.vimrc.local
+  ln -s $HOME/.dotfiles/vim/vimrc.bundles.local $HOME/.vimrc.bundles.local
+}
+
 setup_gitconfig
 install_dotfiles
+install_maximum-awesome
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]
