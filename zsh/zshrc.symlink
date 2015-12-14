@@ -103,7 +103,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # for iterm2 integration
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
-#########
+####
 # bullet-train zsh theme options
 # -prompt
 
@@ -119,4 +119,12 @@ export BULLETTRAIN_RUBY_SHOW=false
 export BULLETTRAIN_TIME_SHOW=false
 # dir
 export BULLETTRAIN_DIR_EXTENDED=2
-#######
+####
+
+####
+# Virtualenv settings
+export WORKON_HOME=$HOME/.virtualenvs
+VIRTUALENVWRAPPER_PYTHON='/usr/local/bin/python'
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+source /usr/local/bin/virtualenvwrapper.sh
+####
