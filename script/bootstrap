@@ -142,6 +142,9 @@ install_maximum-awesome () {
 
   local overwrite_all=false backup_all=false skip_all=false
 
+  git submodule init
+  git submodule update
+  
   cd ../maximum-awesome
   rake
 
