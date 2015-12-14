@@ -18,11 +18,12 @@ The script installs and configures the following:
 * Powerline fonts for command prompt
 * Oh-my-zsh
 * Python 2 and 3 using pyenv
+* Virtualenv
 * Ruby
-* AWS CLI (coming soon)
-* tmux (Adapted from Square's [maximum-awesome](https://github.com/square/maximum-awesome))
+* AWS CLI
 * Atom editor config
-* Vim (Also adapted from Square's [maximum-awesome](https://github.com/square/maximum-awesome))
+* tmux (as part of [maximum-awesome](https://github.com/square/maximum-awesome))
+* Vim (as part of [maximum-awesome](https://github.com/square/maximum-awesome))
 
 ## prerequisites
 1. Install latest version of Xcode from App Store
