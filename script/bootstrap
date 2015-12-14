@@ -148,9 +148,9 @@ install_maximum-awesome () {
   cd $HOME/.dotfiles/maximum-awesome
   rake
 
-  ln -s $HOME/.dotfiles/tmux/tmux.conf.local $HOME/.tmux.conf.local
-  ln -s $HOME/.dotfiles/vim/vimrc.local $HOME/.vimrc.local
-  ln -s $HOME/.dotfiles/vim/vimrc.bundles.local $HOME/.vimrc.bundles.local
+  ln -sf $HOME/.dotfiles/tmux/tmux.conf.local $HOME/.tmux.conf.local
+  ln -sf $HOME/.dotfiles/vim/vimrc.local $HOME/.vimrc.local
+  ln -sf $HOME/.dotfiles/vim/vimrc.bundles.local $HOME/.vimrc.bundles.local
 }
 
 setup_gitconfig
