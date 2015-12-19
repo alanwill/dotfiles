@@ -22,8 +22,10 @@ The script installs and configures the following:
 * Ruby
 * AWS CLI
 * Atom editor config
-* tmux (as part of [maximum-awesome](https://github.com/square/maximum-awesome))
-* Vim (as part of [maximum-awesome](https://github.com/square/maximum-awesome))
+* [maximum-awesome](https://github.com/square/maximum-awesome)
+* tmux (with [tmuxline](https://github.com/edkolev/tmuxline.vim))
+* Vim (with [airplane](https://github.com/bling/vim-airline))
+* [promptline](https://github.com/edkolev/promptline.vim)
 
 ## prerequisites
 1. Install latest version of Xcode from App Store
@@ -54,4 +56,15 @@ The script installs and configures the following:
 
     ```
     $HOME/.dotfiles/script/bootstrap
+    ```
+
+4. Run the following commands in Vi in order to initialize the promptline and tmuxline plugins
+    ```
+    :PromptlineSnapshot ~/.dotfiles/prompt/prompt.sh airline
+    ```
+    ```
+    :Tmuxline airline
+    ```
+    ```
+    :TmuxlineSnapshot ~/.dotfiles/tmux/tmuxline.sh
     ```

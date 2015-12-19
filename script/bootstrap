@@ -157,9 +157,7 @@ install_maximum-awesome () {
   fi
 
   vim +PluginInstall +qall
-  vim +PromptlineSnapshot ~/.dotfiles/prompt/prompt.sh airline +qall
-  vim +Tmuxline airline +qall
-  vim +TmuxlineSnapshot ~/.dotfiles/tmux/tmuxline.sh +qall
+
 }
 
 setup_gitconfig
