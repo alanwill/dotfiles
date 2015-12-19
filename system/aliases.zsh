@@ -26,6 +26,8 @@ which pigz 2>&1 >/dev/null && alias gzip="pigz"
 alias sessions="tmux list-sessions"
 alias attach="tmux attach-session -t"
 alias tclip="tmux show-buffer|xsel"
+alias bu="brew update"
+alias bo="brew outdated"
 
 # Pipe my public key to my clipboard.
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
