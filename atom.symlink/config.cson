@@ -8,6 +8,7 @@
     tabLength: 4
     tabType: "soft"
   linter: {}
+  minimap: {}
   core:
     ignoredNames: [
       ".bundle"
@@ -22,9 +23,7 @@
       "atom-dark-syntax"
     ]
     hideGitIgnoredFiles: true
-    disabledPackages: [
-
-    ]
+    disabledPackages: []
     projectHome: "$HOME/hacking"
   "spell-check":
     grammars: [
