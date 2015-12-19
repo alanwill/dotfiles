@@ -16,4 +16,4 @@ atom.symlink/blob-store/
 
 # Config files
 tmux/tmuxline.sh
-prompt/prompt.sh
+prompt/

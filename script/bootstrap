@@ -151,6 +151,11 @@ install_maximum-awesome () {
   ln -sf $HOME/.dotfiles/tmux/tmux.conf.local $HOME/.tmux.conf.local
   ln -sf $HOME/.dotfiles/vim/vimrc.local $HOME/.vimrc.local
   ln -sf $HOME/.dotfiles/vim/vimrc.bundles.local $HOME/.vimrc.bundles.local
+
+  if [ ! -d "$HOME/.dotfiles/prompt" ]; then
+    mkdir $HOME/.dotfiles/prompt
+  fi
+
   vim +PluginInstall +qall
   vim +PromptlineSnapshot ~/.dotfiles/prompt/prompt.sh airline +qall
   vim +Tmuxline airline +qall
