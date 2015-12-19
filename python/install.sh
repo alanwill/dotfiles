@@ -20,6 +20,7 @@ then
   echo "*** Installing AWS CLI ***"
   pip install --upgrade pip
   pip install awscli
+  pip install aws-shell
   pip install virtualenv
 else
   echo "*** Setting local python environment ***"
@@ -28,6 +29,7 @@ else
   echo "*** Updating AWS CLI ***"
   pip install --upgrade pip
   pip install --upgrade awscli
+  pip install --upgrade aws-shell
 fi
 
 exit 0
