@@ -1,0 +1,2 @@
+# For tmuxinator
+set-window-option -g pane-base-index 1
