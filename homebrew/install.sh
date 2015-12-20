@@ -52,7 +52,6 @@ tree \
 vim \
 wget \
 zsh \
-zsh-syntax-highlighting \
 spark
 brew install lastpass-cli --with-pinentry --with-doc
 
