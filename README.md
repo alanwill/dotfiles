@@ -17,7 +17,8 @@ The script installs and configures the following:
 * Some OS X preferences, see: [here](./osx/set-defaults.sh).
 * Powerline fonts for command prompt
 * Oh-my-zsh
-* Python 2 and 3 using pyenv
+* Python 2/3 (via homebrew)
+* pyenv
 * Virtualenv
 * Ruby
 * AWS CLI

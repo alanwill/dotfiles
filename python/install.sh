@@ -2,34 +2,31 @@
 #
 # Python installation
 #
-# This checks for the presence of pyenv and if not present, installs it
-# also installs both python 2 and 3 (superceeding the default python binaries in OS X)
+# This checks for the presence of homebrew install python and if not present, installs it
+# as well as virtualenv and pyenv
 
-# Check for pyenv
-if test ! $(which pyenv)
+# Check for python
+if /usr/local/bin/python ! $(which python)
 then
-  echo "*** Installing pyenv ***"
+  echo "*** Installing python ***"
+  brew install python
+  brew install python3
+
+  /usr/local/bin/pip install virtualenv
+  /usr/local/bin/pip install virtualenvwrapper
+  export WORKON_HOME=$HOME/.virtualenvs
+  export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+  export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+  source /usr/local/bin/virtualenvwrapper.sh
+
   brew install pyenv
-  echo "*** Installing python 2.7.11 ***"
-  pyenv install 2.7.11
-  echo "*** Installing python 3.5.0 ***"
-  pyenv install 3.5.0
-  echo "*** Setting local python environment ***"
-  eval "$(pyenv init -)"
-  pyenv local 2.7.11
-  echo "*** Installing AWS CLI ***"
-  pip install --upgrade pip
-  pip install awscli
-  pip install aws-shell
-  pip install virtualenv
-else
-  echo "*** Setting local python environment ***"
-  eval "$(pyenv init -)"
-  pyenv local 2.7.11
-  echo "*** Updating AWS CLI ***"
-  pip install --upgrade pip
-  pip install --upgrade awscli
-  pip install --upgrade aws-shell
+  brew install pyenv-virtualenv
+
+  export PIP_REQUIRE_VIRTUALENV=true
+
+  mkvirtualenv main
+  workon main
+  pip install aws-shell awscli blink1 powerline-status Django
 fi
 
 exit 0
