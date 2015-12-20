@@ -9,7 +9,7 @@ let g:tmuxline_theme = 'airline'
 let g:promptline_theme = 'airline'
 let g:promptline_preset = {
         \'a' : [ promptline#slices#host({ 'only_if_ssh': 1 }) ],
-        \'b' : [ promptline#slices#cwd(), promptline#slices#python_virtualenv() ],
+        \'b' : [ promptline#slices#cwd() ],
         \'c' : [ promptline#slices#vcs_branch(), promptline#slices#git_status() ],
-        \'x' : [ promptline#slices#python_virtualenv() ],
+        \'z' : [ promptline#slices#python_virtualenv() ],
         \'warn' : [ promptline#slices#last_exit_code(), promptline#slices#battery() ]}
