@@ -36,6 +36,7 @@ go \
 grc \
 hub \
 jq \
+keybase \
 lynx \
 node \
 openssl \
