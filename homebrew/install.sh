@@ -23,6 +23,7 @@ fi
 
 # Install homebrew packages
 brew install \
+asciinema \
 blink1 \
 caskroom/cask/brew-cask \
 coreutils \
