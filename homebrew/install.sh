@@ -32,7 +32,6 @@ emacs \
 figlet \
 git \
 git-extras \
-gitup \
 go \
 grc \
 hub \
@@ -61,6 +60,7 @@ brew install lastpass-cli --with-pinentry --with-doc
 brew cask install \
 consul \
 dockertoolbox \
+gitup \
 nomad \
 otto \
 packer \
