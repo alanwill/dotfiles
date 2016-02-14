@@ -32,6 +32,7 @@ emacs \
 figlet \
 git \
 git-extras \
+gitup \
 go \
 grc \
 hub \
