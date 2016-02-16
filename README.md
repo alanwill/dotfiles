@@ -46,7 +46,7 @@ The script installs and configures the following:
 
 1. Clone the repo into your $HOME
     ```
-    git clone https://github.com/alanwill/dotfiles.git $HOME/.dotfiles
+    git clone --recursive https://github.com/alanwill/dotfiles.git $HOME/.dotfiles
     ```
 
 2. Install individual tools
