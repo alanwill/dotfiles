@@ -91,6 +91,9 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 0
 
+# Prevent Bluetooth from automatically reconnecting to devices
+defaults write /Library/Preferences/com.apple.Bluetooth.plist DontPageAudioDevices 1
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
