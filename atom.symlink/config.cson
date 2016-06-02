@@ -1,15 +1,9 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    invisibles: {}
-    fontSize: 15
-    softWrapAtPreferredLineLength: true
-    tabLength: 4
-    tabType: "soft"
-  linter: {}
-  minimap: {}
+  "atom-beautify":
+    general:
   core:
+    disabledPackages: []
+    hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
       ".git"
@@ -18,20 +12,32 @@
       "tmp"
       "vendor"
     ]
+    projectHome: "$HOME/hacking"
     themes: [
       "atom-dark-ui"
       "atom-dark-syntax"
     ]
-    hideGitIgnoredFiles: true
-    disabledPackages: []
-    projectHome: "$HOME/hacking"
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "soft"
+  "git-plus": {}
+  linter: {}
+  "markdown-preview":
+    breakOnSingleNewline: true
+    useGitHubStyle: true
+  minimap: {}
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
-  "markdown-preview":
-    useGitHubStyle: true
