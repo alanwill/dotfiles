@@ -98,6 +98,7 @@ pip
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
 felixr/docker-zsh-completion
+wbinglee/zsh-wakatime
 EOBUNDLES
 
 # Load the theme.
