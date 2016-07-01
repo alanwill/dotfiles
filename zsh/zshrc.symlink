@@ -141,13 +141,13 @@ test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_in
 ####
 # Virtualenv settings
 export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Hacking
+export PROJECT_HOME=$PROJECTS
 export PIP_REQUIRE_VIRTUALENV=true
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"  
+eval "$(pyenv virtualenv-init -)"
 ####
 
 # Promptline snapshot file

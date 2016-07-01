@@ -24,7 +24,7 @@
     ]
     hideGitIgnoredFiles: true
     disabledPackages: []
-    projectHome: "$HOME/hacking"
+    projectHome: "$PROJECTS"
   "spell-check":
     grammars: [
       "text.plain"

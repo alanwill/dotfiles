@@ -1,4 +1,5 @@
-export EDITOR='atom'
+export EDITOR="atom"
+export GOPATH="$PROJECTS/go-projects"
 
 # Tmuxinator
 export DISABLE_AUTO_TITLE=true
