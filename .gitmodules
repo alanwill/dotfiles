@@ -1,6 +1,3 @@
-[submodule "powerline-fonts/fonts"]
-	path = powerline-fonts/fonts
-	url = https://github.com/powerline/fonts.git
 [submodule "maximum-awesome"]
 	path = maximum-awesome
 	url = https://github.com/square/maximum-awesome

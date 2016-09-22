@@ -15,7 +15,6 @@ The script installs and configures the following:
 * Homebrew and a number of packakes, see: [here](./homebrew/install.sh).
 * Google Cloud CLI (gcloud)
 * Some OS X preferences, see: [here](./osx/set-defaults.sh).
-* Powerline fonts for command prompt
 * Oh-my-zsh
 * Python 2/3 (via homebrew)
 * pyenv
