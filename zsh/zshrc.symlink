@@ -78,7 +78,8 @@ source $HOME/.zshrc-dotfile
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Load antigen
-source $HOME/.dotfiles/zsh/antigen/antigen.zsh
+source $(brew --prefix)/share/antigen/antigen.zsh
+
 
 # Update antigen bundles and antigen itself
 antigen update

@@ -4,6 +4,3 @@
 [submodule "maximum-awesome"]
 	path = maximum-awesome
 	url = https://github.com/square/maximum-awesome
-[submodule "zsh/antigen"]
-	path = zsh/antigen
-	url = https://github.com/zsh-users/antigen.git
