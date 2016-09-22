@@ -31,7 +31,6 @@ then
   echo "*** Setting up 'main' virtualenv ***"
   mkvirtualenv main
   workon main
-  pip install aws-shell awscli blink1 powerline-status Django
 fi
 
 exit 0
