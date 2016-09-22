@@ -28,12 +28,10 @@ asciinema \
 awscli \
 aws-shell \
 blink1 \
-caskroom/cask/brew-cask \
 coreutils \
 cowsay \
 curl \
 emacs \
-figlet \
 git \
 git-extras \
 go \
@@ -42,7 +40,6 @@ httpie \
 hub \
 jq \
 keybase \
-lynx \
 node \
 openssl \
 osquery \
@@ -51,7 +48,6 @@ reattach-to-user-namespace \
 ruby \
 speedtest-cli \
 sqlite \
-sysdig \
 tmux \
 tmux-mem-cpu-load \
 tree \
@@ -60,18 +56,5 @@ wget \
 zsh \
 spark
 brew install lastpass-cli --with-pinentry --with-doc
-
-# Install brew cask packages
-brew cask install \
-consul \
-dockertoolbox \
-gitup \
-nomad \
-otto \
-packer \
-serf \
-terraform \
-vagrant \
-vault
 
 exit 0
