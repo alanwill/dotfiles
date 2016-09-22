@@ -33,6 +33,7 @@ cowsay \
 curl \
 emacs \
 git \
+git-lfs \
 git-extras \
 go \
 grc \
@@ -40,6 +41,7 @@ httpie \
 hub \
 jq \
 keybase \
+macvim \
 node \
 openssl \
 osquery \
