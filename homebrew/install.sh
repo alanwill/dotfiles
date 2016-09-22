@@ -23,7 +23,10 @@ fi
 
 # Install homebrew packages
 brew install \
+antigen \
 asciinema \
+awscli \
+aws-shell \
 blink1 \
 caskroom/cask/brew-cask \
 coreutils \
@@ -35,6 +38,7 @@ git \
 git-extras \
 go \
 grc \
+httpie \
 hub \
 jq \
 keybase \
