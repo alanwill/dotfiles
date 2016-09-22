@@ -154,3 +154,9 @@ eval "$(pyenv virtualenv-init -)"
 
 # Promptline snapshot file
 source $HOME/.dotfiles/prompt/prompt.sh
+
+# ZSH Completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+# AWS CLI Completions
+source /usr/local/share/zsh/site-functions/_aws
