@@ -2,7 +2,7 @@
 #
 # TPM (TMUX Plugin Manager) install
 #
-if [ ! -d "~/.tmux/plugins/tpm" ]; then
+if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
   echo " Cloning TPM tmux plugin"
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
