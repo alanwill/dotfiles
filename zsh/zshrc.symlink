@@ -80,10 +80,8 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 # Load antigen
 source $(brew --prefix)/share/antigen/antigen.zsh
 
-
 # Update antigen bundles and antigen itself
 antigen update
-antigen selfupdate
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
