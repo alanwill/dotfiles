@@ -16,4 +16,3 @@ run '~/.tmux/plugins/tpm/tpm'
 
 # bind prefix + r to reload config
 bind-key r source-file ~/.tmux.conf
-tmux source ~/.tmux.conf
