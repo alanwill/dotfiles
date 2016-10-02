@@ -6,5 +6,8 @@ set -e
 
 cd "$(dirname $0)"/..
 
+# install powerline fonts
+./fonts/install.sh
+
 # find the installers and run them iteratively
 find . -name install.sh -maxdepth 2 | while read installer ; do sh -c "${installer}" ; done

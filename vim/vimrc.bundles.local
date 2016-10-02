@@ -1,4 +1,4 @@
 Plugin 'wakatime/vim-wakatime'
-Plugin 'bling/vim-airline'
 Plugin 'edkolev/promptline.vim'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'vim-airline/vim-airline'

@@ -1,3 +1,6 @@
 [submodule "maximum-awesome"]
 	path = maximum-awesome
 url=https://github.com/alanwill/maximum-awesome
+[submodule "fonts"]
+	path = fonts
+	url = https://github.com/powerline/fonts

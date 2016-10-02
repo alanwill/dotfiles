@@ -23,6 +23,7 @@ The script installs and configures the following:
 * AWS CLI
 * Atom editor config
 * [maximum-awesome](https://github.com/square/maximum-awesome)
+* [Powerline fonts](https://github.com/powerline/fonts)
 * tmux (with [tmuxline](https://github.com/edkolev/tmuxline.vim))
 * Vim (with [airplane](https://github.com/bling/vim-airline))
 * [promptline](https://github.com/edkolev/promptline.vim)
