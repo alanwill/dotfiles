@@ -3,12 +3,12 @@
     showIndentGuide: true
     fontFamily: "Menlo"
     invisibles: {}
-    fontSize: 15
     softWrapAtPreferredLineLength: true
     tabLength: 4
     tabType: "soft"
   linter: {}
   minimap: {}
+  projectHome: "$PROJECTS"
   core:
     ignoredNames: [
       ".bundle"
