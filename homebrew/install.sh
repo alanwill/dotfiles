@@ -55,6 +55,8 @@ tmux-mem-cpu-load \
 tree \
 vim \
 wget \
+watch \
+wego \
 zsh \
 spark
 brew install lastpass-cli --with-pinentry --with-doc
