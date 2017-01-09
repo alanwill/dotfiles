@@ -158,3 +158,6 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 
 # AWS CLI Completions
 source /usr/local/share/zsh/site-functions/_aws
+
+# Alias hub to git
+eval "$(hub alias -s)"
