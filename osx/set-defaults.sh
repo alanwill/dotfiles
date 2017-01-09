@@ -16,14 +16,8 @@ sudo scutil --set HostName "0x616c616e"
 sudo scutil --set LocalHostName "0x616c616e"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0x616c616e"
 
-# Set standby delay to 24 hours (default is 1 hour) when plugged in
-sudo pmset -c standbydelay 86400
-
 # Disable the sound effects on boot
 # sudo nvram SystemAudioVolume=" "
-
-# Disable transparency in the menu bar and elsewhere on Yosemite
-# defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set highlight color to green
 defaults write NSGlobalDomain AppleHighlightColor -string "0.752941 0.964706 0.678431"
@@ -89,7 +83,7 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightC
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain KeyRepeat -int 2
 
 # Prevent Bluetooth from automatically reconnecting to devices
 defaults write /Library/Preferences/com.apple.Bluetooth.plist DontPageAudioDevices 1
